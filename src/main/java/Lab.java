@@ -14,6 +14,11 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        int myZero = 0;
+        int myDivisor = 6;
+        int myQuotient = myDivisor/myZero;
+        System.out.println(myQuotient); 
+
 
     }
 }
